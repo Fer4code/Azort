@@ -1,45 +1,59 @@
-import React, { Component } from 'react'
-import { Carousel } from 'antd'
+import React from 'react'
+import { Carousel } from 'react-bootstrap'
+import car2 from '../img/unnamed.jpg'
+import car1 from '../img/index.jpg'
+import car3 from '../img/azort (6).jpeg'
+import { Typography, Grid, Button, makeStyles } from '@material-ui/core'
 
-export default class CarouselComponent extends Component {
-	constructor(props) {
-		super(props)
-		this.next = this.next.bind(this)
-		this.previous = this.previous.bind(this)
-		this.carousel = React.createRef()
-	}
-	next() {
-		this.carousel.next()
-	}
-	previous() {
-		this.carousel.prev()
-	}
+const useStyles = makeStyles(theme => ({
+	divcar: {
+		backgroundColor: 'black',
+		width: '100%',
+		height: '70vh',
+		paddingTop: theme.spacing(24),
+		paddingLeft: theme.spacing(22),
+	},
+	textcar: {
+		color: 'white',
+	},
+	carimg: {
+		width: '100%',
+		height: '70vh',
+	},
+}))
 
-	render() {
-		const props = {
-			dots: true,
-			infinite: false,
-			speed: 500,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-		}
-		return (
-			<div>
-				<Carousel ref={node => (this.carousel = node)} {...props}>
-					<div>
-						<h3>1</h3>
-					</div>
-					<div>
-						<h3>2</h3>
-					</div>
-					<div>
-						<h3>3</h3>
-					</div>
-					<div>
-						<h3>4</h3>
-					</div>
+export default function Caroussel() {
+	const [index, setIndex] = React.useState(0)
+	const classes = useStyles()
+
+	const handleSelect = selectedIndex => {
+		setIndex(selectedIndex)
+	}
+	return (
+		<>
+			<Grid item sm={12}>
+				<Carousel
+					alt='mycarousel'
+					pause='scroll'
+					controls='true'
+					wrap='true'
+					touch='true'
+					fade='true'
+					interval='10000'
+					activeIndex={index}
+					onSelect={handleSelect}
+				>
+					<Carousel.Item>
+						<img className={classes.carimg} src={car1} alt='First slide' />
+					</Carousel.Item>
+					<Carousel.Item>
+						<img className={classes.carimg} src={car2} alt='Second slide' />
+					</Carousel.Item>
+					<Carousel.Item>
+						<img className={classes.carimg} src={car3} alt='Third slide' />
+					</Carousel.Item>
 				</Carousel>
-			</div>
-		)
-	}
+			</Grid>
+		</>
+	)
 }
