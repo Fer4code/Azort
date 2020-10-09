@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from '../src/components/layout/Navbar'
+import { ThemeProvider, Container, CssBaseline } from '@material-ui/core'
+import { light } from './assets/theme'
+import Landing from './components/layout/Landing'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<ThemeProvider theme={light}>
+			<div className='App'>
+				<Navbar />
+				<>
+					<Landing />
+				</>
+			</div>
+		</ThemeProvider>
+	)
 }
 
-export default App;
+export default App
