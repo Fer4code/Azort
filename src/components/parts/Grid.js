@@ -4,14 +4,17 @@ import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 import Card from '@material-ui/core/Card'
 import CardActionArea from '@material-ui/core/CardActionArea'
-import CardActions from '@material-ui/core/CardActions'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 
 const useStyles = makeStyles(theme => ({
 	fc: {
 		width: '100%',
-		marginTop: '10%',
+		marginTop: '2%',
+		marginBottom: '5%',
+		[theme.breakpoints.down('md')]: {
+			marginTop: '12%',
+		},
 	},
 	paper: {
 		display: 'flex',
@@ -24,7 +27,7 @@ const useStyles = makeStyles(theme => ({
 		justify: 'center',
 		alignItem: 'center',
 		alignContent: 'center',
-		marginTop: '5%',
+		marginTop: '2%',
 		marginLeft: '15%',
 		minHeight: 'auto',
 		width: '70%',

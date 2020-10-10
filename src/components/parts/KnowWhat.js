@@ -5,7 +5,6 @@ import Paper from '@material-ui/core/Paper'
 import Card from '@material-ui/core/Card'
 import CardActionArea from '@material-ui/core/CardActionArea'
 import CardMedia from '@material-ui/core/CardMedia'
-import CardContent from '@material-ui/core/CardContent'
 
 const useStyles = makeStyles(theme => ({
 	fc: {
@@ -16,7 +15,7 @@ const useStyles = makeStyles(theme => ({
 	paper: {
 		display: 'flex',
 		flexDirection: 'column',
-		width: '15rem',
+		width: '100%',
 	},
 	cont: {
 		position: 'center',
@@ -31,11 +30,7 @@ const useStyles = makeStyles(theme => ({
 	},
 	crd: {
 		height: '30rem',
-		width: '25rem',
-	},
-	card: {
-		padding: 10,
-		borderRadius: '0.5rem',
+		width: '100%',
 	},
 	gridimg: {
 		width: '100%',
@@ -58,7 +53,7 @@ export default function Profile(props) {
 			</Typography>
 			<div container className={classes.cont}>
 				<Grid container spacing={5} justify='center' align='center' alignContent='center' alignItems='center'>
-					<Grid item xl={4} lg={4} md={4} sm={6} xs={11} align='center'>
+					<Grid item xl={4} lg={4} md={4} sm={11} xs={11} align='center'>
 						<Paper className={classes.paper}>
 							<Card className={classes.crd} variant='elevation'>
 								<CardMedia
@@ -70,7 +65,7 @@ export default function Profile(props) {
 							</Card>
 						</Paper>
 					</Grid>
-					<Grid item xl={4} lg={4} md={4} sm={6} xs={11}>
+					<Grid item xl={4} lg={4} md={4} sm={11} xs={11}>
 						<Paper className={classes.paper}>
 							<Card className={classes.crd} variant='elevation'>
 								<CardActionArea className={classes.gridimg}>
@@ -84,7 +79,7 @@ export default function Profile(props) {
 							</Card>
 						</Paper>
 					</Grid>
-					<Grid item xl={4} lg={4} md={4} sm={6} xs={11}>
+					<Grid item xl={4} lg={4} md={4} sm={11} xs={11}>
 						<Paper className={classes.paper}>
 							<Card className={classes.crd} variant='elevation'>
 								<CardActionArea className={classes.gridimg}>

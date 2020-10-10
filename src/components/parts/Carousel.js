@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import Carousel from 'react-bootstrap/Carousel'
 import car2 from '../img/unnamed.jpg'
 import car1 from '../img/index.jpg'
 import car3 from '../img/azort (6).jpeg'
