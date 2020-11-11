@@ -3,6 +3,7 @@ import { Grid, Typography, makeStyles } from '@material-ui/core'
 import credentials from './Credentials'
 import Map from './Map'
 import IG from '../img/ig.svg'
+import './Style.css'
 
 const useStyles = makeStyles(theme => ({
 	content: {
@@ -33,26 +34,26 @@ function Footer() {
 				alignItems='flex-end'
 				alignContent='flex-end'
 				wrap='nowrap'
-				className={classes.content}
+				className='fcontent'
 			>
 				<Grid item xs={12}>
 					<Grid container>
-						<Grid item xs={12} md={4} align='center' className={classes.item}>
-							<Typography variant='h5' className={classes.header}>
+						<Grid item xs={12} md={4} align='center' className='item'>
+							<Typography variant='h5' className='header'>
 								Contáctanos
 							</Typography>
-							<Typography variant='h6' className={classes.header}>
+							<Typography variant='h6' className='header'>
 								Whatsapp Business: +(58)419-xxxxx
 							</Typography>
-							<Typography variant='h6' className={classes.header}>
+							<Typography variant='h6' className='header'>
 								Llámanos: +(58)419-xxxxx +(58)419-xxxxx
 							</Typography>
-							<Typography variant='h6' className={classes.header}>
+							<Typography variant='h6' className='header'>
 								Correos: fern@grupoazort.com
 							</Typography>
 						</Grid>
-						<Grid item xs={12} md={4} align='center' className={classes.item}>
-							<Typography variant='h5' className={classes.header}>
+						<Grid item xs={12} md={4} align='center' className='item'>
+							<Typography variant='h5' className='header'>
 								Nuestras redes sociales
 							</Typography>
 							<img
@@ -61,21 +62,21 @@ function Footer() {
 								onClick={event => (window.location.href = '/')}
 								alt='Instagram'
 							/>
-							<Typography variant='h5' color='initial' className={classes.header}>
+							<Typography variant='h5' color='initial' className='header'>
 								Dirección:
 							</Typography>
-							<Typography variant='h6' color='initial' className={classes.header}>
+							<Typography variant='h6' color='initial' className='header'>
 								C.C Concepto La Granja - Av. Paseo Cabriales, Urb La granja,
 							</Typography>
-							<Typography variant='h6' color='initial' className={classes.header}>
+							<Typography variant='h6' color='initial' className='header'>
 								2005, Municipio Naguanagua, Estado Carabobo, Venezuela.
 							</Typography>
 						</Grid>
-						<Grid item xs={12} md={4} align='center' className={classes.item}>
-							<Typography variant='h5' color='initial' className={classes.header} align='center'>
+						<Grid item xs={12} md={4} align='center' className='item'>
+							<Typography variant='h5' color='initial' className='header' align='center'>
 								Ubicación
 							</Typography>
-							<Map
+							{/*<Map
 								googleMapURL={mapsurl}
 								containerElement={<div style={{ height: '100%', width: '100%', align: 'center' }} />}
 								mapElement={
@@ -90,12 +91,12 @@ function Footer() {
 									/>
 								}
 								loadingElement={<p>Cargando...</p>}
-							/>
+							/>*/}
 						</Grid>
 						<Grid item xs={12} align='center' style={{ marginTop: '3%', backgroundColor: 'grey' }}>
 							<Typography
 								variant='h6'
-								className={classes.header}
+								className='header'
 							>{`© ${new Date().getFullYear()} Grupo Azort`}</Typography>
 						</Grid>
 					</Grid>

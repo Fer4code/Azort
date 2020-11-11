@@ -1,0 +1,110 @@
+/*---About Us---*/
+
+.content {
+	background-color: white;
+	height: '10%';
+	width: '100%';
+}
+
+.header {
+	color: white;
+}
+
+.item {
+	margin-top: 2rem;
+}
+
+.logo {
+	width: '6%';
+}
+
+/* ----- Carousel ---- */
+.divcar {
+	width: 100%;
+	height: 70vh;
+}
+
+/*-----Grid------------*/
+
+.fullcgrid {
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	/*break*/
+}
+
+.papergrid {
+	display: flex;
+	flex-direction: column;
+	width: 15rem;
+}
+.contgrid {
+	position: center;
+	align-items: center;
+	align-content: center;
+	margin-top: 2%;
+	margin-left: 15%;
+	min-height: auto;
+	width: 70%;
+	justify-content: center;
+}
+.crdgrid {
+	height: 18rem;
+}
+.card {
+	padding: 10;
+	border-radius: 0.5rem;
+}
+.gridimg {
+	width: 100%;
+	height: 200px;
+	align-content: center;
+}
+.gridimg {
+	width: 100%;
+	height: 200px;
+	align-content: center;
+}
+
+/*-----KnowWhat------------*/
+
+.fc {
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 10%;
+	/*break*/
+}
+
+.paper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.cont {
+	position: center;
+	align-items: center;
+	align-content: center;
+	margin-top: 5%;
+	margin-left: 15%;
+	min-height: auto;
+	width: 70%;
+	justify-content: center;
+}
+.crd {
+	height: 30rem;
+	width: 100%;
+}
+.card {
+	padding: 10;
+	border-radius: 0.5rem;
+}
+.gridcar {
+	width: 100%;
+	height: 100%;
+	align-content: center;
+}
+
+.title {
+	color: #ddab32;
+	margin-left: 12%;
+}

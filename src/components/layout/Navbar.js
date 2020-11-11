@@ -9,6 +9,7 @@ import { Divider, Grid, IconButton, Menu, MenuItem, useScrollTrigger, ClickAwayL
 import logo from '../img/logoc.svg'
 import mlogo from '../img/logo.svg'
 import DehazeIcon from '@material-ui/icons/Dehaze'
+import './Style.css'
 
 const useStyles = makeStyles(theme => ({
 	root: {
