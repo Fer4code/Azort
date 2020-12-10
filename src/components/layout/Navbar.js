@@ -103,7 +103,7 @@ export default function Navbar(props) {
 		<>
 			<Button color='inherit'>
 				<Typography variant='subtitle1' align='center'>
-					Negocios
+					Negocioss
 				</Typography>
 			</Button>
 			<Button color='inherit'>
