@@ -1,10 +1,10 @@
 import React from 'react'
-import Grid from '../parts/Grid'
+import Grid2 from '../parts/Grid2'
 
 export default function Products() {
 	return (
 		<div>
-			<Grid />
+			<Grid2 />
 		</div>
 	)
 }

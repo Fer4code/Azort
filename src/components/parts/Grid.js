@@ -1,5 +1,5 @@
 import React from 'react'
-import { makeStyles, Tooltip, Zoom, Container, Typography } from '@material-ui/core/'
+import { Tooltip, Zoom, Typography } from '@material-ui/core/'
 import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 import Card from '@material-ui/core/Card'
@@ -27,7 +27,7 @@ export default function Profile(props) {
 											className='gridimg'
 											component='img'
 											alt='Acido sulfonico'
-											image={require('../img/azort (2).jpeg')}
+											image={require('../img/sulf.jpeg')}
 										/>
 									</CardActionArea>
 									<CardContent>
@@ -51,7 +51,7 @@ export default function Profile(props) {
 											className="gridimg"
 											component='img'
 											alt='Varsol'
-											image={require('../img/azort (5).jpeg')}
+											image={require('../img/varsol.jpeg')}
 										/>
 									</CardActionArea>
 									<CardContent>
@@ -75,7 +75,7 @@ export default function Profile(props) {
 											className='gridimg'
 											component='img'
 											alt='Infineum P5096'
-											image={require('../img/azort (16).jpeg')}
+											image={require('../img/inf2.jpeg')}
 										/>
 									</CardActionArea>
 									<CardContent>
@@ -99,7 +99,7 @@ export default function Profile(props) {
 											className='gridimg'
 											component='img'
 											alt='Aceite mineral USP'
-											image={require('../img/azort (17).jpeg')}
+											image={require('../img/usp.jpeg')}
 										/>
 									</CardActionArea>
 									<CardContent>
@@ -123,7 +123,7 @@ export default function Profile(props) {
 											className='gridimg'
 											component='img'
 											alt='Mejorador de viscocidad EPM 060'
-											image={require('../img/azort (14).jpeg')}
+											image={require('../img/epm.jpeg')}
 										/>
 									</CardActionArea>
 									<CardContent>
@@ -147,7 +147,7 @@ export default function Profile(props) {
 											className='gridimg'
 											component='img'
 											alt='Alisol 100'
-											image={require('../img/azort (15).jpeg')}
+											image={require('../img/alisol100.jpeg')}
 										/>
 									</CardActionArea>
 									<CardContent>
@@ -171,7 +171,7 @@ export default function Profile(props) {
 											className='gridimg'
 											component='img'
 											alt='Antiespumante'
-											image={require('../img/azort (10).jpeg')}
+											image={require('../img/anti.jpeg')}
 										/>
 									</CardActionArea>
 									<CardContent>
