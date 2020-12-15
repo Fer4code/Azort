@@ -1,16 +1,11 @@
-import React, { Fragment } from 'react'
+import React, {useEffect, useState } from 'react'
 import Carousel from '../parts/Carousel'
 import Grid2 from '../parts/Grid2'
 import KnowWhat from '../parts/KnowWhat'
 import AboutUs from '../parts/AboutUs'
 import './Style.css'
-import logo from '../img/logo.svg'
-import lam from '../img/sulf.jpeg'
-import Switch from '@material-ui/core/Switch'
-import Paper from '@material-ui/core/Paper'
-import Zoom from '@material-ui/core/Zoom'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
 import { makeStyles } from '@material-ui/core/styles'
+import {Animation} from './Animation';
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -29,29 +24,31 @@ const useStyles = makeStyles(theme => ({
 	},
 }))
 
-export default function Landing() {
-	const classes = useStyles()
-	const [loaded, setLoaded] = React.useState(false)
-
-	function onLoad() {
-		console.log('loaded')
-		setLoaded(true)
-	}
-
+function App() {
+	const [loading,setLoading] = useState(true);
+	useEffect(()=> {
+	  setTimeout(() => {
+		setLoading(false);
+	  }, 1500);
+	});
 	return (
-		<>
-			
-			{loaded ? <img src={logo} onLoad={onLoad}	alt='logo' className='App-logo' style={{display: loaded ? 'block' : 'none'}}/>   : 
-			(<Fragment>
-				<Carousel/>
-				<Grid2/>
-				<AboutUs />
-				<KnowWhat />
-				
-			</Fragment>)
-			}
-			
-			
-		</>
-	)
-}
+	  <>
+	  {loading === false ? (
+		<div className="App">
+		  <Carousel/>
+		  <Grid2/>
+		  <AboutUs/>
+		  <KnowWhat/>
+		</div>
+		): (
+		<div >
+		  <Animation />
+		</div>
+  
+		  )
+	  }
+	  </>
+	);
+  }
+  
+  export default App;

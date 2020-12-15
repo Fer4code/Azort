@@ -17,7 +17,7 @@ function AboutUs() {
 			>
 				<Grid item xs={12}>
 					<Grid container spacing={3}>
-						<Grid item xs={12} md={4} align='center' className='item'>
+						<Grid item xs={12} md={12} align='center' className='item'>
 							<Typography variant="h3" color="initial">Mision</Typography>
 							<Typography variant="h5" color="initial" align='justify'> 
 							Compartir el asesoramiento global y materias primas con el mercado industrial nacional,
@@ -26,16 +26,17 @@ function AboutUs() {
         					industrial del pais.
 						</Typography>
                        </Grid>
-						<Grid item xs={12} md={4} align='center' className='item'>
+						<Grid item xs={12} md={12} align='center' className='item'>
                         <Typography variant="h3" color="initial">Vision</Typography>
 						<Typography variant="h5" color="initial" align='justify'>
 							Ser los aliados comerciales industriales mas confiables, dentro y fuera del mercado venezolano,
         					comprometidos con nuestros valores y el desarrollo del pais.</Typography>
                             </Grid>
 							
-						<Grid item xs={12} md={4} align='center' className='item'>
+						<Grid item xs={12} md={12} align='center' className='item'>
 							<Typography variant="h3" color="initial">Nuestros Valores</Typography>
-							<Typography variant="h5" color="initial">Responsabilidad; cumplir con lo acordado,
+							<Typography variant="h5" color="initial">
+		Responsabilidad; cumplir con lo acordado,
         Compromiso; sentimos pasion por lo que hacemos, brindar mas,
         Honestidad; transparencia en el desempeño, decir las cosas como son,
         Respeto; todos somos valiosos, todos tenemos talent y eso se respeta, trato cordial,

@@ -22,6 +22,7 @@
 .divcar {
 	width: 100%;
 	height: 70vh;
+	margin-top: 1%;
 }
 
 /*-----Grid------------*/
@@ -80,6 +81,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	object-fit: cover;
 }
 .cont {
 	position: center;
@@ -92,20 +94,88 @@
 	justify-content: center;
 }
 .crd {
-	height: 30rem;
+	height: 100%;
 	width: 100%;
+	object-fit: cover;
 }
 .card {
 	padding: 10;
 	border-radius: 0.5rem;
+	object-fit: cover;
 }
 .gridcar {
 	width: 100%;
-	height: 100%;
 	align-content: center;
+	justify-content: center;
+	object-fit: cover;
 }
 
 .title {
 	color: #ddab32;
 	margin-left: 12%;
+}
+
+/*----- Animation -------*/
+
+.contain {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.App-logo {
+	height: 400px;
+	pointer-events: none;
+	margin: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin 1s ease-in-out;
+	}
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.App-logo {
+		height: 230px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.App-logo {
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.App-logo {
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.App-logo {
+		height: 120px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.App-logo {
+		height: 110px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.App-logo {
+		height: 100px;
+	}
 }

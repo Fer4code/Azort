@@ -11,7 +11,7 @@ export default function Profile(props) {
 
 	return (
 		<div className='fc'>
-			<Typography variant='h3' color='DDAB32' align='left' className='title'>
+			<Typography variant='h3' color='DDAB32' align='center' className='title'>
 				Sabias que?
 			</Typography>
 			<div container className='cont'>
@@ -23,7 +23,7 @@ export default function Profile(props) {
 									className='gridcar'
 									component='img'
 									alt='Acido sulfonico'
-									image={require('../img/chev.jpg')}
+									image={require('../img/base.jpg')}
 								/>
 							</Card>
 						</Paper>
@@ -36,7 +36,7 @@ export default function Profile(props) {
 										className='gridcar'
 										component='img'
 										alt='Varsol'
-										image={require('../img/ch.jpg')}
+										image={require('../img/lubri2.jpg')}
 									/>
 								</CardActionArea>
 							</Card>
@@ -50,7 +50,7 @@ export default function Profile(props) {
 										className='gridcar'
 										component='img'
 										alt='Infineum P5096'
-										image={require('../img/hy.jpg')}
+										image={require('../img/lubri1.jpg')}
 									/>
 								</CardActionArea>
 							</Card>
