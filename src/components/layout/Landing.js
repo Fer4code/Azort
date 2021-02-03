@@ -3,6 +3,7 @@ import Carousel from '../parts/Carousel'
 import Grid2 from '../parts/Grid2'
 import KnowWhat from '../parts/KnowWhat'
 import AboutUs from '../parts/AboutUs'
+import Insta from '../parts/Insta'
 import './Style.css'
 import { makeStyles } from '@material-ui/core/styles'
 import {Animation} from './Animation';
@@ -39,6 +40,7 @@ function App() {
 		  <Grid2/>
 		  <AboutUs/>
 		  <KnowWhat/>
+		  <Insta/>
 		</div>
 		): (
 		<div >
@@ -51,4 +53,4 @@ function App() {
 	);
   }
   
-  export default App;
+export default App;

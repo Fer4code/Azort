@@ -127,6 +127,7 @@
 	height: 400px;
 	pointer-events: none;
 	margin: auto;
+	animation: fadeout 2s;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -166,16 +167,62 @@
 	.App-logo {
 		height: 120px;
 	}
+	.Feed a img {
+		width: 40%;
+	}
 }
 
 @media screen and (max-width: 375px) {
 	.App-logo {
 		height: 110px;
 	}
+	.Feed a img {
+		margin: 3% 3%;
+		width: 60%;
+		float: center;
+		animation: fadein 3s;
+	}
 }
 
 @media screen and (max-width: 320px) {
 	.App-logo {
 		height: 100px;
+	}
+	.Feed a img {
+		margin: 3% 3%;
+		width: 40%;
+		float: center;
+		animation: fadein 3s;
+	}
+}
+/*---------- Instafeed ----------*/
+
+.Feed {
+	padding: 1% 1%;
+	align-content: center;
+}
+.Instatext {
+	color: #5277ff;
+	cursor: pointer;
+}
+
+.Feed a img {
+	margin: 3% 3%;
+	width: 25rem;
+	float: center;
+	animation: fadein 3s;
+}
+
+.iglogo {
+	width: 5%;
+	cursor: pointer;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
 	}
 }

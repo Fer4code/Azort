@@ -58,8 +58,8 @@ function Footer() {
 							</Typography>
 							<img
 								src={IG}
-								className={classes.logo}
-								onClick={event => (window.location.href = '/')}
+								className='logo'
+								onClick={event => (window.location.href = 'https://www.instagram.com/ql_grupo_azortca/')}
 								alt='Instagram'
 							/>
 							<Typography variant='h5' color='initial' className='header'>
