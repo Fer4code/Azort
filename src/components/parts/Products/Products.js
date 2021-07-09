@@ -39,7 +39,7 @@ export const products = [
     },
 ]
 
-export const Solventes_alifaticos = [
+export const solventes_alifaticos = [
         {
         "id": "Alisol100",
         "name": "Alisol 100",
