@@ -55,10 +55,10 @@ export default function ResponsiveDialog() {
                               </CardActionArea>
                               <CardContent>
                                   <Typography align='center' variant='h5' component='h2'>
-                                      Solventes Alifaticos
+                                      {data.name}
                                   </Typography>
                                   <Typography variant='body2' align='center' color='textSecondary' component='p'>
-                                  Granel (Totems / Cisternas)
+                                  {data.presentation}
                                   </Typography>
                               </CardContent>
                           </Card>
