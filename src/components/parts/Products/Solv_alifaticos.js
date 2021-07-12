@@ -1,14 +1,11 @@
 import React from 'react';
 import { Tooltip, Zoom, Typography } from '@material-ui/core/'
-import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
-import {solventes_alifaticos} from "./Products"
+import { solventes_alifaticos } from "./Products"
+import { psolventes_alifaticos } from '../Products';
 import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 import Card from '@material-ui/core/Card'
@@ -16,6 +13,7 @@ import CardActionArea from '@material-ui/core/CardActionArea'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import '../Styles.css'
+import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 
 export default function ResponsiveDialog() {
   const [open, setOpen] = React.useState(false);
@@ -32,18 +30,18 @@ export default function ResponsiveDialog() {
 
   const aliconst = (
       <>
-      {solventes_alifaticos.map((data, key) => {
-          return(
-    <Dialog
+      <Dialog
     fullScreen={fullScreen}
     open={open}
     aria-labelledby="responsive-dialog-title"
-  >
+        >
+      {solventes_alifaticos.map((data, key) => {
+          return(
+    <>
     <DialogTitle id="responsive-dialog-title">{"Solventes alifaticos"}</DialogTitle>
-    <Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' key={key} className='gitem'>
+    <Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
                   <Tooltip title={data.name} TransitionComponent={Zoom}>
-                      <Paper className='papergrid'>
-                      
+                      <Paper className='papergrid' onClick={event =>  window.location.href='/Contactos'}>
                           <Card className='crdgrid' variant='elevation'>
                               <CardActionArea>
                                   <CardMedia
@@ -51,6 +49,7 @@ export default function ResponsiveDialog() {
                                       component='img'
                                       alt={data.name}
                                       image={require('./pimg/'+`${data.image}`)}
+                                      onClick={event =>  window.location.href='/Contactos'}
                                   />
                               </CardActionArea>
                               <CardContent>
@@ -65,20 +64,23 @@ export default function ResponsiveDialog() {
                       </Paper>
                   </Tooltip>
               </Grid>
-  </Dialog>
+  </>
+  
    );
 })}
+</Dialog>
   </>
   )
   return (
       <div>
-  {solventes_alifaticos.map((data, key) => {
+  {psolventes_alifaticos.map((data, key) => {
     return (
         <div>
         {open ? aliconst : null}
        
           <Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' key={key} className='gitem'>
                   <Tooltip title={data.name} TransitionComponent={Zoom}>
+                  <ClickAwayListener onClickAway={handleClose}>
                       <Paper className='papergrid' onClick={handleClickOpen}>
                       
                           <Card className='crdgrid' variant='elevation'>
@@ -100,6 +102,7 @@ export default function ResponsiveDialog() {
                               </CardContent>
                           </Card>
                       </Paper>
+                      </ClickAwayListener>
                   </Tooltip>
               </Grid>
               </div>

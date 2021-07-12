@@ -39,11 +39,11 @@ export const products = [
     },
 ]
 
-export const Solventes_alifaticos = [
+export const psolventes_alifaticos = [
         {
         "id": "Alisol100",
         "name": "Alisol 100",
-        "presentation": "A granel por litro",
+        "presentation": "A granel poor litro",
         "image": 'alisol100.jpeg'
     },
 ]

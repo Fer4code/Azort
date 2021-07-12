@@ -29,7 +29,7 @@ export const products = [
     },    {
         "id": "Alisol100",
         "name": "Alisol 100",
-        "presentation": "A granel por litro",
+        "presentation": "AAA granel por litro",
         "image": 'alisol100.jpeg'
     },    {
         "id": "idAntiespumante",
@@ -43,7 +43,13 @@ export const solventes_alifaticos = [
         {
         "id": "Alisol100",
         "name": "Alisol 100",
-        "presentation": "A granel por litro",
+        "presentation": "A granel por litrosss",
         "image": 'alisol100.jpeg'
     },
+    {
+        "id": "Acido_Sulfonico",
+        "name": "Ácido Sulfónico",
+        "presentation": "A granel por Kg",
+        "image": 'alisol100.jpeg'
+    },   
 ]

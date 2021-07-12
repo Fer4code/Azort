@@ -20,20 +20,14 @@ import { useTheme } from '@material-ui/core/styles';
 import Solv_alifaticos from '../parts/Products/Solv_alifaticos'
 
 
+
 export default function Products(props) {
 
 	const [open, setOpen] = React.useState(false);
   	const theme = useTheme();
   	const fullScreen = useMediaQuery(theme.breakpoints.down('sm'));
 	
-	  const handleClickOpen = () => {
-		setOpen(true);
-	  };
-	
-	  const handleClose = () => {
-		setOpen(false);
-	  };
-	
+
 	  return (
 		<div className='fullcgrid'>
 			<Typography variant='h3' color='initial' align='center' className='gtitle'>
@@ -42,10 +36,10 @@ export default function Products(props) {
 			<div container className='contgrid'>
 
 			<Grid container spacing={10} justify='center' align='center' alignContent='center' alignItems='center'>
-				<Solv_alifaticos onClick={handleClickOpen}/>
+				<Solv_alifaticos/>
             {products.map((data, key) => {
           return (
-
+				
 				<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' key={key} className='gitem'>
 						<Tooltip title={data.name} TransitionComponent={Zoom}>
 							<Paper className='papergrid'>
