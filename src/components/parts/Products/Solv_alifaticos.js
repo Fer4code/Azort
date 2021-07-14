@@ -14,11 +14,12 @@ import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import '../Styles.css'
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
+import Container from '@material-ui/core/Container';
+import DialogContent from '@material-ui/core/DialogContent';
 
 export default function ResponsiveDialog() {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
   const theme = useTheme();
-  const fullScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -31,14 +32,19 @@ export default function ResponsiveDialog() {
   const aliconst = (
       <>
       <Dialog
-    fullScreen={fullScreen}
+    maxWidth={'lg'}
     open={open}
     aria-labelledby="responsive-dialog-title"
+    scroll='paper'
+   
         >
+            <DialogContent >
+            <Container maxWidth='xl'>
+            <DialogTitle id="responsive-dialog-title">{"Solventes alifaticos"}</DialogTitle>
+            <Grid container spacing={8} justify='center' align='center' alignContent='center' alignItems='center'>
       {solventes_alifaticos.map((data, key) => {
           return(
-    <>
-    <DialogTitle id="responsive-dialog-title">{"Solventes alifaticos"}</DialogTitle>
+    <> 
     <Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
                   <Tooltip title={data.name} TransitionComponent={Zoom}>
                       <Paper className='papergrid' onClick={event =>  window.location.href='/Contactos'}>
@@ -68,6 +74,9 @@ export default function ResponsiveDialog() {
   
    );
 })}
+</Grid>
+</Container>
+</DialogContent>
 </Dialog>
   </>
   )

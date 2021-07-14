@@ -51,5 +51,18 @@ export const solventes_alifaticos = [
         "name": "Ácido Sulfónico",
         "presentation": "A granel por Kg",
         "image": 'alisol100.jpeg'
+    },
+       
+    {
+        "id": "Acido_Sulfonico",
+        "name": "Ácido Sulfónico",
+        "presentation": "A granel por Kg",
+        "image": 'alisol100.jpeg'
     },   
+    {
+        "id": "Acido_Sulfonico",
+        "name": "Ácido Sulfónico",
+        "presentation": "A granel por Kg",
+        "image": 'alisol100.jpeg'
+    },
 ]
