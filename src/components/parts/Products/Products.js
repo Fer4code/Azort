@@ -43,26 +43,21 @@ export const solventes_alifaticos = [
         {
         "id": "Alisol100",
         "name": "Alisol 100",
-        "presentation": "A granel por litrosss",
-        "image": 'alisol100.jpeg'
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ali_100.jpg'
     },
     {
-        "id": "Acido_Sulfonico",
-        "name": "Ácido Sulfónico",
-        "presentation": "A granel por Kg",
-        "image": 'alisol100.jpeg'
+        "id": "Alisolg150",
+        "name": "Alisol 150",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ali_150.jpg'
     },
        
     {
-        "id": "Acido_Sulfonico",
-        "name": "Ácido Sulfónico",
-        "presentation": "A granel por Kg",
-        "image": 'alisol100.jpeg'
+        "id": "Alisol200",
+        "name": "Alisol 200",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ali_200.jpg'
     },   
-    {
-        "id": "Acido_Sulfonico",
-        "name": "Ácido Sulfónico",
-        "presentation": "A granel por Kg",
-        "image": 'alisol100.jpeg'
-    },
+   
 ]

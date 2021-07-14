@@ -219,7 +219,7 @@
 }
 
 .dialog {
-  height: 70%;
+	min-height: fit-content;
 }
 
 @keyframes fadein {

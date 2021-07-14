@@ -69,7 +69,6 @@ export default function Products(props) {
         })}
 		</Grid>
 		</div>
-
-					</div>
+		</div>
 	)
 }
