@@ -18,6 +18,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Solv_alifaticos from '../parts/Products/Solv_alifaticos'
+import Alisol_100 from '../parts/Products/Alisol_100'
 
 
 
@@ -37,6 +38,7 @@ export default function Products(props) {
 
 			<Grid container spacing={10} justify='center' align='center' alignContent='center' alignItems='center'>
 				<Solv_alifaticos/>
+				<Alisol_100/>
             {products.map((data, key) => {
           return (
 				
