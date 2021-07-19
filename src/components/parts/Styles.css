@@ -219,9 +219,26 @@
 }
 
 .dialog {
-	min-height: fit-content;
+  min-height: fit-content;
+}
+.imgproducts {
+  border-radius: 0.5rem;
+  align-content: center;
 }
 
+.iproduct {
+  display: flex;
+  position: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 15%;
+  min-height: auto;
+  width: 70%;
+  justify-content: center;
+  flex-direction: row;
+}
 @keyframes fadein {
   from {
     opacity: 0;

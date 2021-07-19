@@ -39,18 +39,28 @@ function Footer() {
 				<Grid item xs={12}>
 					<Grid container>
 						<Grid item xs={12} md={4} align='center' className='item'>
-							<Typography variant='h5' className='header'>
+						<Grid container>
+						<Grid item xs={12}>
+							<Typography variant='body' className='header'>
 								Contáctanos
 							</Typography>
-							<Typography variant='h6' className='header'>
+						</Grid>
+						<Grid item xs={12}>
+							<Typography variant='body' className='header'>
 								Whatsapp Business: +(58)419-xxxxx
 							</Typography>
-							<Typography variant='h6' className='header'>
+						</Grid>
+						<Grid item xs={12}>
+							<Typography variant='body' className='header'>
 								Llámanos: +(58)419-xxxxx +(58)419-xxxxx
 							</Typography>
-							<Typography variant='h6' className='header'>
+						</Grid>
+						<Grid item xs={12}>
+							<Typography variant='body' className='header'>
 								Correos: fern@grupoazort.com
 							</Typography>
+						</Grid>
+						</Grid>
 						</Grid>
 						<Grid item xs={12} md={4} align='center' className='item'>
 							<Typography variant='h5' className='header'>
@@ -65,10 +75,10 @@ function Footer() {
 							<Typography variant='h5' color='initial' className='header'>
 								Dirección:
 							</Typography>
-							<Typography variant='h6' color='initial' className='header'>
-								C.C Concepto La Granja - Av. Paseo Cabriales, Urb La granja,
+							<Typography variant='body' color='initial' className='header'>
+								C.C Concepto La Granja - Av. Paseo Cabriales,
 							</Typography>
-							<Typography variant='h6' color='initial' className='header'>
+							<Typography variant='body' color='initial' className='header'>
 								2005, Municipio Naguanagua, Estado Carabobo, Venezuela.
 							</Typography>
 						</Grid>
@@ -93,9 +103,9 @@ function Footer() {
 								loadingElement={<p>Cargando...</p>}
 							/>*/}
 						</Grid>
-						<Grid item xs={12} align='center' style={{ marginTop: '3%', backgroundColor: 'grey' }}>
+						<Grid item xs={12} align='center' style={{ marginTop: '2%', backgroundColor: 'grey' }}>
 							<Typography
-								variant='h6'
+								variant='body'
 								className='header'
 							>{`© ${new Date().getFullYear()} Grupo Azort`}</Typography>
 						</Grid>

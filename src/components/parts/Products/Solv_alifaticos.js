@@ -69,8 +69,7 @@ export default function ResponsiveDialog() {
                                     component='img'
                                     alt={data.name}
                                     image={require('./pimg/'+`${data.image}`)}
-                                    onClick={event =>  window.location.href='/Contactos'}
-                                    
+                                    onClick={event =>  window.location.href=`${data.path}`}
                                 />
                             </CardActionArea>
                             <CardContent>

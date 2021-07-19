@@ -47,3 +47,12 @@ export const psolventes_alifaticos = [
         "image": 'alisol100.jpeg'
     },
 ]
+
+export const alisol_100 = [
+    {
+        "id": "Alisol100",
+        "name": "Alisol 100",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ali_100.jpg',
+    },
+]

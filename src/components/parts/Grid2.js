@@ -8,17 +8,10 @@ import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import './Styles.css'
 import {products} from "./Products"
-
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Solv_alifaticos from '../parts/Products/Solv_alifaticos'
-import Alisol_100 from '../parts/Products/Alisol_100'
+import Alisol_100 from '../parts/Products/iProducts/Alisol_100'
 
 
 
@@ -37,9 +30,20 @@ export default function Products(props) {
 			<div container className='contgrid'>
 
 			<Grid container spacing={10} justify='center' align='center' alignContent='center' alignItems='center'>
-				<Solv_alifaticos/>
-				<Alisol_100/>
-            {products.map((data, key) => {
+			<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+			<Solv_alifaticos/>
+					</Grid>
+					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+			<Solv_alifaticos/>
+					</Grid>
+					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+			<Solv_alifaticos/>
+					</Grid>
+					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+			<Solv_alifaticos/>
+					</Grid>
+				
+            {/*{products.map((data, key) => {
           return (
 				
 				<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' key={key} className='gitem'>
@@ -68,9 +72,10 @@ export default function Products(props) {
 						</Tooltip>
 					</Grid>
           );
-        })}
+        })}*/}
 		</Grid>
 		</div>
-		</div>
+
+					</div>
 	)
 }

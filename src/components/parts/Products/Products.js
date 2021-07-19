@@ -44,7 +44,8 @@ export const solventes_alifaticos = [
         "id": "Alisol100",
         "name": "Alisol 100",
         "presentation": "Granel (Totems / Cisternas)",
-        "image": 'ali_100.jpg'
+        "image": 'ali_100.jpg',
+        "path": '/Alisol_100'
     },
     {
         "id": "Alisolg150",
@@ -60,4 +61,15 @@ export const solventes_alifaticos = [
         "image": 'ali_200.jpg'
     },   
    
+]
+
+export const alisol_100 = [
+    {
+        "id": "Alisol100",
+        "name": "Alisol 100",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ali_100.jpg',
+        "use": "Fabricacion de pinturas, productos de la agricultura, y disolventes de resinas. Tambien se utliza en la formulacion de productos veterinarios y desengrasantes de piezas metalicas, ademas como componentes de barnices, tintas y lacas y en la formulacion de gomas y adhesivos.",
+
+    },
 ]
