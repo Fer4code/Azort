@@ -221,24 +221,38 @@
 .dialog {
   min-height: fit-content;
 }
+
+/*--------iproducts------*/
 .imgproducts {
   border-radius: 0.5rem;
   align-content: center;
+  height: 2%;
+  width: 100%;
 }
 
 .iproduct {
-  display: flex;
   position: center;
   align-items: center;
   align-content: center;
-  padding-top: 2%;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 15%;
-  min-height: auto;
   width: 70%;
   justify-content: center;
-  flex-direction: row;
 }
+
+.ipcontainer {
+  width: 100%;
+  margin-top: 3%;
+  /*break*/
+}
+
+.ipaper {
+  display: flex;
+  flex-direction: column;
+  width: 13rem;
+  margin-top: 1%;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;

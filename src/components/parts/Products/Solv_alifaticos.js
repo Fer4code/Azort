@@ -42,7 +42,7 @@ export default function ResponsiveDialog() {
             <DialogContent >
             <div className='fullcgrid'>
     <Typography variant='h4' color='initial' align='center' className='gtitle'>
-        Solventes Alifaticos
+        Solventes Alifáticos
     </Typography>
     <Typography variant='body1' color='initial' align='center' className='gtitle'>
     Agrupan una serie de disolventes no aromáticos que cubre un amplio rango de 

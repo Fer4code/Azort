@@ -31,7 +31,52 @@ export default function Alisol_100(props) {
 
 	  return (
 
+      <div className='ipcontainer'>
+			<Typography variant='h3' color='DDAB32' align='center' className='title'>
+				Solventes Alifáticos
+			</Typography>
 			<div container className='iproduct'>
+                {alisol_100.map((data, key) => {
+                  return (
+                  <>
+                  <Grid container spacing={5} justify='center' align='center' alignContent='center' alignItems='center'>
+                    <Grid item xl={6} lg={6} md={6} sm={11} xs={11} align='center'>
+                    <Tooltip title={data.name} TransitionComponent={Zoom}>
+							<Paper className='ipaper'>
+							
+              <img src={require('../pimg/'+`${data.image}`)} className='imgproducts'/>
+							</Paper>
+						</Tooltip>
+                    </Grid>
+
+                    <Grid item xl={6} lg={6} md={6} sm={11} xs={11} align='center'>
+                    <Typography variant="h2" color="initial">{data.name}</Typography>
+            <Typography variant="body1" color="initial" align='justify'>Dentro de sus usos mas comunes:
+            </Typography>
+            <Typography variant="body1" color="initial" align='justify'>{data.use}
+            </Typography>
+            <Button
+            variant="contained"
+            color="default"
+            className={classes.button}
+            startIcon={<GetAppIcon/>}
+            >
+              
+              <Typography variant="button" color="initial" >Descargar DataSheet</Typography>
+        
+      </Button>
+                    </Grid>
+                  </Grid>
+                  </>
+                  );
+                })}
+			</div>
+		</div>
+    )
+}
+
+{/*
+  <div container className='iproduct'>
           
 			<Grid container spacing={10} justify='center' align='center' alignContent='center' alignItems='center'>
       <Grid item xs={12}>
@@ -71,11 +116,9 @@ export default function Alisol_100(props) {
         })}
 		</Grid>
 		</div>
-
-	)
-}
-
-{/*export default function Alisol_100() {
+  
+  
+  export default function Alisol_100() {
   const classes = useStyles();
 
   return (
