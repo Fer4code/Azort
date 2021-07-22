@@ -70,9 +70,6 @@ export const alisol_100 = [
         "presentation": "Granel (Totems / Cisternas)",
         "image": 'ali_100.jpg',
         "use": "Fabricación de pinturas, productos de la agricultura, y disolventes de resinas. También se utiliza en la formulación de productos veterinarios y desengrasantes de piezas metálicas, además como componentes de barnices, tintas y lacas y en la formulación de gomas y adhesivos.",
-        "datasheet": "./pimg/Alifatico G150.pdf",
-        "try": "Alifatico G150.pdf"
-
-
+        "file": "Alifatico_G150.pdf"
     },
 ]

@@ -253,6 +253,10 @@
   margin-top: 1%;
 }
 
+.down {
+  margin-top: 2%;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
