@@ -51,14 +51,16 @@ export const solventes_alifaticos = [
         "id": "Alisolg150",
         "name": "Alisol 150",
         "presentation": "Granel (Totems / Cisternas)",
-        "image": 'ali_150.jpg'
+        "image": 'ali_150.jpg',
+        "path": '/Alisol_150'
     },
        
     {
         "id": "Alisol200",
         "name": "Alisol 200",
         "presentation": "Granel (Totems / Cisternas)",
-        "image": 'ali_200.jpg'
+        "image": 'ali_200.jpg',
+        "path": '/Alisol_200'
     },   
    
 ]
@@ -70,6 +72,50 @@ export const alisol_100 = [
         "presentation": "Granel (Totems / Cisternas)",
         "image": 'ali_100.jpg',
         "use": "Fabricación de pinturas, productos de la agricultura, y disolventes de resinas. También se utiliza en la formulación de productos veterinarios y desengrasantes de piezas metálicas, además como componentes de barnices, tintas y lacas y en la formulación de gomas y adhesivos.",
-        "file": "Alifatico_G150.pdf"
+        "file": "Alisol100_Azort.pdf"
     },
+]
+
+export const alisol_150 = [
+    {
+        "id": "Alisol150",
+        "name": "Alisol 150",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ali_150.jpg',
+        "use": "Fabricación de pinturas, productos de la agricultura, y disolventes de resinas. También se utiliza en la formulación de productos veterinarios y desengrasantes de piezas metálicas, además como componentes de barnices, tintas y lacas y en la formulación de gomas y adhesivos.",
+        "file": "Alisol150_Azort.pdf"
+    }
+]
+
+
+export const alisol_200 = [
+    {
+        "id": "Alisol200",
+        "name": "Alisol 200",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ali_200.jpg',
+        "use": "Fabricación de pinturas, productos de la agricultura, y disolventes de resinas. También se utiliza en la formulación de productos veterinarios y desengrasantes de piezas metálicas, además como componentes de barnices, tintas y lacas y en la formulación de gomas y adhesivos.",
+        "file": "Alisol150_Azort.pdf"
+    }
+]
+
+export const parafinicos = [
+    {
+        "id": "Kerosene",
+        "name": "Kerosene / Queroseno",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'kero.jpg',
+        "path": '/Kerosene'
+    }
+]
+
+export const kerosene = [
+    {
+        "id": "Kerosene",
+        "name": "Kerosene / Queroseno",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'kero.jpg',
+        "use": "Es el derivado de la destilación del petróleo, de un color azulado o amarillento transparente, su estado intermedio de densidad va entre la gasolina y el diésel es de un olor fuerte e inflamable, usado como combustible en motores y turbinas, como disolvente y para calefacciones caseras, cocinas y lámparas domésticas e industriales.",
+        "file": "Kerosene_Azort.pdf"
+    }
 ]

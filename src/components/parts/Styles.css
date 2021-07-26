@@ -41,6 +41,7 @@
   display: flex;
   flex-direction: column;
   width: 15rem;
+  height: fit-content;
 }
 .contgrid {
   display: flex;
@@ -48,23 +49,23 @@
   align-items: center;
   align-content: center;
   margin-top: 2%;
-  margin-left: 15%;
-  min-height: auto;
+  margin-left: 10%;
+  min-height: fit-content;
   width: 70%;
   justify-content: center;
   flex-direction: row;
 }
 .crdgrid {
-  height: 18rem;
+  height: 30rem;
 }
 .card {
   padding: 10;
   border-radius: 0.5rem;
-  margin-left: 300px;
+  margin-left: 500px;
 }
 .gridimg {
   width: 100%;
-  height: 200px;
+  height: 25rem;
   align-content: center;
 }
 
@@ -255,6 +256,14 @@
 
 .down {
   margin-top: 2%;
+}
+.fulliproduct {
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*break*/
 }
 
 @keyframes fadein {

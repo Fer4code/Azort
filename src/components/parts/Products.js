@@ -44,15 +44,15 @@ export const psolventes_alifaticos = [
         "id": "Alisol100",
         "name": "Alisol 100",
         "presentation": "A granel poor litro",
-        "image": 'alisol100.jpeg'
+        "image": 'ali_100.jpg'
     },
 ]
 
-export const alisol_100 = [
+export const pparafinicos = [
     {
-        "id": "Alisol100",
-        "name": "Alisol 100",
-        "presentation": "Granel (Totems / Cisternas)",
-        "image": 'ali_100.jpg',
-    },
+    "id": "Kerosene",
+    "name": "Kerosene / Queroseno",
+    "presentation": "Granel (Totems / Cisternas)",
+    "image": 'kero.jpg',
+},
 ]

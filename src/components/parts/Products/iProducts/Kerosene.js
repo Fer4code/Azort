@@ -3,7 +3,7 @@ import { Tooltip, Zoom, Typography, makeStyles } from '@material-ui/core/'
 import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 import '../../Styles.css'
-import { alisol_100 } from "../Products"
+import { kerosene } from "../Products"
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import GetAppIcon from '@material-ui/icons/GetApp';
@@ -11,7 +11,7 @@ import Button from '@material-ui/core/Button';
 
 
 
-export default function Alisol_100(props) {
+export default function Kerosene(props) {
 
 	const [open, setOpen] = React.useState(false);
   	const theme = useTheme();
@@ -21,10 +21,10 @@ export default function Alisol_100(props) {
 
       <div className='ipcontainer'>
 			<Typography variant='h3' color='DDAB32' align='center' className='title'>
-				Solventes Alifáticos
+				Parafínicos
 			</Typography>
 			<div container className='iproduct'>
-                {alisol_100.map((data, key) => {
+                {kerosene.map((data, key) => {
                   return (
                   <>
                   <Grid container spacing={5} justify='center' align='center' alignContent='center' alignItems='center'>

@@ -9,6 +9,9 @@ import Products from './components/layout/Products'
 import Footer from './components/layout/Footer'
 import Contacts from './components/layout/Contacts'
 import Alisol_100 from './components/parts/Products/iProducts/Alisol_100'
+import Alisol_150 from './components/parts/Products/iProducts/Alisol_150'
+import Alisol_200 from './components/parts/Products/iProducts/Alisol_200'
+import Kerosene from './components/parts/Products/iProducts/Kerosene'
 import createHistory from 'history/createBrowserHistory'
 
 
@@ -25,6 +28,10 @@ function App() {
 						<Route exact path='/Products' component={Products} />
 						<Route exact path='/Contactos' component={Contacts} />
 						<Route exact path='/Alisol_100' component={Alisol_100} />
+						<Route exact path='/Alisol_150' component={Alisol_150} />
+						<Route exact path='/Alisol_200' component={Alisol_200} />
+						<Route exact path='/Kerosene' component={Kerosene} />
+
 					</div>
 
 					<Footer />
