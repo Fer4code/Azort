@@ -12,8 +12,13 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Solv_alifaticos from '../parts/Products/Solv_alifaticos'
 import Parafinicos from '../parts/Products/Parafinicos'
+<<<<<<< HEAD
 import Aromaticos from '../parts/Products/Aromaticos'
 import Alcoholes from '../parts/Products/Alcoholes'
+=======
+import Aminas from '../parts/Products/Aminas'
+import Baseslub from '../parts/Products/Baseslub'
+>>>>>>> refs/remotes/origin/master
 
 
 
@@ -43,6 +48,15 @@ export default function Products(props) {
 					</Grid>
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 			<Alcoholes/>
+					</Grid>
+					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+			<Solv_alifaticos/>
+					</Grid>
+					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+			<Baseslub/>
+					</Grid>
+					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+			<Aminas/>
 					</Grid>
 				
             {/*{products.map((data, key) => {
