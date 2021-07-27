@@ -12,6 +12,11 @@ import Alisol_100 from './components/parts/Products/iProducts/Alisol_100'
 import Alisol_150 from './components/parts/Products/iProducts/Alisol_150'
 import Alisol_200 from './components/parts/Products/iProducts/Alisol_200'
 import Kerosene from './components/parts/Products/iProducts/Kerosene'
+import Xileno from './components/parts/Products/iProducts/Xileno'
+import Metanol from './components/parts/Products/iProducts/Metanol'
+import IPA from './components/parts/Products/iProducts/IPA'
+import Etilico from './components/parts/Products/iProducts/Etilico.js'
+import Hipoclorito12 from './components/parts/Products/iProducts/Hipoclorito12.js'
 import createHistory from 'history/createBrowserHistory'
 
 
@@ -31,7 +36,11 @@ function App() {
 						<Route exact path='/Alisol_150' component={Alisol_150} />
 						<Route exact path='/Alisol_200' component={Alisol_200} />
 						<Route exact path='/Kerosene' component={Kerosene} />
-
+						<Route exact path='/Xileno' component={Xileno} />
+						<Route exact path='/Metanol' component={Metanol} />
+						<Route exact path='/IPA' component={IPA} />
+						<Route exact path='/Etilico' component={Etilico} />
+						<Route exact path='/Hipoclorito12' component={Hipoclorito12} />
 					</div>
 
 					<Footer />

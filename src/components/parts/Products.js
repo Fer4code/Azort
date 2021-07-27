@@ -56,3 +56,27 @@ export const pparafinicos = [
     "image": 'kero.jpg',
 },
 ]
+export const paromaticos = [
+    {
+    "id": "Xileno",
+    "name": "Xileno",
+    "presentation": "Granel (Totems / Cisternas)",
+    "image": 'xileno.jpg',
+},
+]
+export const palcoholes = [
+    {
+    "id": "metanol",
+    "name": "Metanol",
+    "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+    "image": 'Metanol.jpg',
+},
+]
+export const plimpiadores = [
+    {
+    "id": "hipoclorito",
+    "name": "Hipoclorito al 12%",
+    "presentation": "Granel (Tótems / Cisternas)",
+    "image": 'Hipoclorito12.jpg',
+},
+]

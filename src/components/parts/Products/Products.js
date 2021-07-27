@@ -119,3 +119,95 @@ export const kerosene = [
         "file": "Kerosene_Azort.pdf"
     }
 ]
+export const aromaticos = [
+    {
+        "id": "Xileno",
+        "name": "Xileno",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'xileno.jpg',
+        "path": '/Xileno'
+    }
+]
+export const xileno = [
+    {
+        "id": "xileno",
+        "name": "Xileno",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'xileno.jpg',
+        "use": "Es un líquido incoloro de olor dulce que se inflama fácilmente. Se encuentra naturalmente en el petróleo y en alquitrán. se usa como disolvente en la imprenta y en las industrias de caucho y cuero. También se usa como agente de limpieza, diluyente de pintura y en pinturas y barnices.",
+        "file": "Xileno_Azort.pdf"
+    }
+]
+export const alcoholes = [
+    {
+        "id": "Metanol",
+        "name": "Metanol",
+        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "image": 'Metanol.jpg',
+        "path": '/Metanol'
+    },
+    {
+        "id": "ipa",
+        "name": "Alcohol Isopropílico (IPA)",
+        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "image": 'ipa.jpg',
+        "path": '/IPA'
+    },
+    {
+        "id": "Etilico",
+        "name": "Etilico",
+        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "image": 'Etilico.jpg',
+        "path": '/Etilico'
+    }
+]
+export const metanol = [
+    {
+        "id": "Metanol",
+        "name": "Metanol",
+        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "image": 'Metanol.jpg',
+        "use": "Líquido incoloro y muy tóxico, obtenido por destilación de la madera a baja temperatura o mediante la reacción del monóxido de carbono y el hidrógeno, que se emplea para desnaturalizar el alcohol etílico y como aditivo de combustibles líquidos.",
+        "file": "Metanol_Azort.pdf"
+    },
+
+]
+export const ipa = [
+    {
+        "id": "ipa",
+        "name": "Alcohol Isopropílico (IPA)",
+        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "image": 'ipa.jpg',
+        "use": "Alcohol incoloro, inflamable, con un olor intenso y muy miscible con el agua, utilizado en la limpieza de objetivos fotográficos, en la industria química para síntesis orgánica y como intermediario, y como disolvente para ceras, aceites vegetales y resinas naturales y sintéticas.",
+        "file": "IPA_Azort.pdf"
+    }
+]
+export const etilico = [
+    {
+        "id": "Etilico",
+        "name": "Etilico",
+        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "image": 'Etilico.jpg',
+        "use": "Líquido incoloro, de olor fuerte e inflamable que se obtiene por destilación de productos de fermentación de sustancias azucaradas o feculentas, como la uva, la melaza, la remolacha o la papa, forma parte de numerosas bebidas (vino, aguardiente, cerveza, etc.) y tiene numerosas aplicaciones industriales.",
+        "file": "Etilico_Azort.pdf"
+    }
+]
+export const limpiadores = [
+    {
+        "id": "Hipoclorito12",
+        "name": "Hipoclorito al 12%",
+        "presentation": "Granel (Tótems / Cisternas)",
+        "image": 'Hipoclorito12.jpg',
+        "path": '/Hipoclorito12'
+    },
+]
+export const hipoclorito12 =[
+    {
+        "id": "Hipoclorito12",
+        "name": "Hipoclorito al 12%",
+        "presentation": "Granel (Tótems / Cisternas)",
+        "image": 'Hipoclorito12.jpg',
+        "use": "Es un compuesto que puede ser utilizado para desinfección del agua. Se usa a gran escala para la purificación de superficies, blanqueamiento, eliminación de olores y desinfección del agua.",
+        "file": "Hipoclorito12_Azort.pdf"
+    }
+]
