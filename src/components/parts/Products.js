@@ -56,3 +56,23 @@ export const pparafinicos = [
     "image": 'kero.jpg',
 },
 ]
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+export const petanolamina = [
+    {
+    "id": "etanolamina",
+    "name": "Etanolamina",
+    "presentation": "Tambores",
+    "image": 'etanolamina.jpg',
+},
+]
+export const pbases = [
+    {
+    "id": "bases",
+    "name": "Bases Lubricantes",
+    "presentation": "Granel (Totems / Cisternas)",
+    "image": 'ISO32.jpg',
+},
+]
+

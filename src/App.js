@@ -12,6 +12,9 @@ import Alisol_100 from './components/parts/Products/iProducts/Alisol_100'
 import Alisol_150 from './components/parts/Products/iProducts/Alisol_150'
 import Alisol_200 from './components/parts/Products/iProducts/Alisol_200'
 import Kerosene from './components/parts/Products/iProducts/Kerosene'
+import Etanolamina from './components/parts/Products/iProducts/Etanolamina'
+import Bsiso32 from './components/parts/Products/iProducts/Bsiso32'
+import Bsiso46 from './components/parts/Products/iProducts/Bsiso46'
 import createHistory from 'history/createBrowserHistory'
 
 
@@ -31,6 +34,9 @@ function App() {
 						<Route exact path='/Alisol_150' component={Alisol_150} />
 						<Route exact path='/Alisol_200' component={Alisol_200} />
 						<Route exact path='/Kerosene' component={Kerosene} />
+						<Route exact path='/Etanolamina' component={Etanolamina} />
+						<Route exact path='/Base_ISO32' component={Bsiso32} />
+						<Route exact path='/Base_ISO46' component={Bsiso46} />
 
 					</div>
 

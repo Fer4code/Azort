@@ -119,3 +119,63 @@ export const kerosene = [
         "file": "Kerosene_Azort.pdf"
     }
 ]
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+export const etanolamina = [
+    {
+        "id": "Etanolamina",
+        "name": "Etanolamina",
+        "presentation": "Tambores",
+        "image": 'etanolamina.jpg',
+        "path": '/Etanolamina'
+    }
+]
+export const ietanolamina = [
+    {
+        "id": "",
+        "name": "",
+        "presentation": "",
+        "image": 'etanolamina.jpg',
+        "use": "Dietanolamina (DEA), monoetanolamina (MEA) y Trietanolamina (TEA) son compuestos de amoníaco utilizados como emulsionantes y agentes espumantes en los cosméticos.",
+        "file": "Etanolamina_Azort.pdf"
+    }
+]
+
+export const baseslub = [
+    {
+        "id": "base32",
+        "name": "Base ISO 32",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ISO32.jpg',
+        "path": '/Base_ISO32'
+    },
+    {
+        "id": "base46",
+        "name": "Base ISO 46",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ISO46.jpg',
+        "path": '/Base_ISO46'
+    },
+]
+export const iso32 = [
+    {
+        "id": "iso32",
+        "name": "Base ISO 32",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ISO32.jpg',
+        "use": "Es un compuesto el cual sirve como el cimiento del lubricante antes de que se mezcle con aditivos o un espesante en el caso de una grasa.",
+        "file": "BaseISO32_Azort.pdf"
+    }
+]
+export const iso46 = [
+    {
+        "id": "iso150",
+        "name": "Base ISO 46",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'ISO46.jpg',
+        "use": "Es un compuesto el cual sirve como el cimiento del lubricante antes de que se mezcle con aditivos o un espesante en el caso de una grasa.",
+        "file": "BaseISO46_Azort.pdf"
+    }
+]
