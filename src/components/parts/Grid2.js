@@ -12,13 +12,11 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Solv_alifaticos from '../parts/Products/Solv_alifaticos'
 import Parafinicos from '../parts/Products/Parafinicos'
-<<<<<<< HEAD
 import Aromaticos from '../parts/Products/Aromaticos'
 import Alcoholes from '../parts/Products/Alcoholes'
-=======
 import Aminas from '../parts/Products/Aminas'
 import Baseslub from '../parts/Products/Baseslub'
->>>>>>> refs/remotes/origin/master
+import Mineraloil from '../parts/Products/Mineraloil'
 
 
 
@@ -50,46 +48,18 @@ export default function Products(props) {
 			<Alcoholes/>
 					</Grid>
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
-			<Solv_alifaticos/>
+					<Mineraloil/>
 					</Grid>
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
-			<Baseslub/>
+					<Baseslub/>
 					</Grid>
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
-			<Aminas/>
+					<Aminas/>
 					</Grid>
+					
+					
 				
-            {/*{products.map((data, key) => {
-          return (
-				
-				<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' key={key} className='gitem'>
-						<Tooltip title={data.name} TransitionComponent={Zoom}>
-							<Paper className='papergrid'>
-							
-								<Card className='crdgrid' variant='elevation'>
-									<CardActionArea>
-										<CardMedia
-											className='gridimg'
-											component='img'
-											alt={data.name}
-											image={require('../img/'+ `${data.image}`)}
-										/>
-									</CardActionArea>
-									<CardContent>
-										<Typography align='center' variant='h5' component='h2'>
-											{data.name}
-										</Typography>
-										<Typography variant='body2' align='center' color='textSecondary' component='p'>
-											{data.presentation}
-										</Typography>
-									</CardContent>
-								</Card>
-							</Paper>
-						</Tooltip>
-					</Grid>
-          );
-        })}*/}
-		</Grid>
+            		</Grid>
 		</div>
 
 					</div>

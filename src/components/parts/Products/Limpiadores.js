@@ -17,7 +17,7 @@ import Container from '@material-ui/core/Container';
 import DialogContent from '@material-ui/core/DialogContent';
 
 export default function ResponsiveDialog() {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
   const theme = useTheme();
 
   const handleClickOpen = () => {

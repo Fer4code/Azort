@@ -3,7 +3,7 @@ import { Tooltip, Zoom, Typography, makeStyles } from '@material-ui/core/'
 import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 import '../../Styles.css'
-import { ietanolamina } from "../Products"
+import { tecnol90 } from "../Products"
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import GetAppIcon from '@material-ui/icons/GetApp';
@@ -11,7 +11,7 @@ import Button from '@material-ui/core/Button';
 
 
 
-export default function Kerosene(props) {
+export default function Xileno(props) {
 
 	const [open, setOpen] = React.useState(false);
   	const theme = useTheme();
@@ -21,14 +21,14 @@ export default function Kerosene(props) {
 
       <div className='ipcontainer'>
 			<Typography variant='h3' color='DDAB32' align='center' className='title'>
-				Aminas
+				Aceite Mineral
 			</Typography>
 			<div container className='iproduct'>
-                {ietanolamina.map((data, key) => {
+                {tecnol90.map((data, key) => {
                   return (
                   <>
                   <Grid container spacing={5} justify='center' align='center' alignContent='center' alignItems='center'>
-                    <Grid item xl={6} lg={6} md={6} sm={11} xs={11} align='center'>
+                    <Grid item xl={6} lg={6} md={6} sm={11} xs={11} align='center' style={{marginBottom: '2%'}}>
                     <Tooltip title={data.name} TransitionComponent={Zoom}>
 							<Paper className='ipaper'>
 							
@@ -39,8 +39,7 @@ export default function Kerosene(props) {
 
                     <Grid item xl={6} lg={6} md={6} sm={11} xs={11} align='center'>
                     <Typography variant="h2" color="initial">{data.name}</Typography>
-            <Typography variant="body1" color="initial" align='justify'>Dentro de sus usos mas comunes:
-            </Typography>
+            
             <Typography variant="body1" color="initial" align='justify'>{data.use}
             </Typography>
             <Button
@@ -50,8 +49,6 @@ export default function Kerosene(props) {
             style={{marginTop:'7%'}}
             startIcon={<GetAppIcon/>}
             href={require('../PDFs/'+`${data.file}`)}
-            href={require('../PDFs/'+`${data.file}`)}
-
             download={data.file}
             >
               

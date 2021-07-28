@@ -47,12 +47,12 @@ function Footer() {
 						</Grid>
 						<Grid item xs={12}>
 							<Typography variant='body' className='header'>
-								Whatsapp Business: +(58)419-xxxxx
+								Carlos Azuaje +58(414) 4328446
 							</Typography>
 						</Grid>
 						<Grid item xs={12}>
 							<Typography variant='body' className='header'>
-								Llámanos: +(58)419-xxxxx +(58)419-xxxxx
+								Anaiz Azuaje +58(424) 4583853
 							</Typography>
 						</Grid>
 						<Grid item xs={12}>

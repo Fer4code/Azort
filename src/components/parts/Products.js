@@ -56,7 +56,6 @@ export const pparafinicos = [
     "image": 'kero.jpg',
 },
 ]
-<<<<<<< HEAD
 export const paromaticos = [
     {
     "id": "Xileno",
@@ -67,9 +66,9 @@ export const paromaticos = [
 ]
 export const palcoholes = [
     {
-    "id": "metanol",
-    "name": "Metanol",
-    "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+    "id": "alcoholes",
+    "name": "Alcoholes",
+    "presentation": "Tambores/Tótems/Cisternas",
     "image": 'Metanol.jpg',
 },
 ]
@@ -81,9 +80,6 @@ export const plimpiadores = [
     "image": 'Hipoclorito12.jpg',
 },
 ]
-=======
-
-/*-------------------------------------------------------------------------------------------------------------------------------------*/
 
 export const petanolamina = [
     {
@@ -101,5 +97,11 @@ export const pbases = [
     "image": 'ISO32.jpg',
 },
 ]
-
->>>>>>> refs/remotes/origin/master
+export const pmineraloil = [
+    {
+        "id": "mineraloil",
+    "name": "Aceite Mineral",
+    "presentation": "Granel (Totems / Cisternas)",
+    "image": 'Tecnol90.jpg',
+    }
+]

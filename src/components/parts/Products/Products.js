@@ -119,7 +119,7 @@ export const kerosene = [
         "file": "Kerosene_Azort.pdf"
     }
 ]
-<<<<<<< HEAD
+
 export const aromaticos = [
     {
         "id": "Xileno",
@@ -212,14 +212,10 @@ export const hipoclorito12 =[
         "file": "Hipoclorito12_Azort.pdf"
     }
 ]
-=======
-
-
-/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 export const etanolamina = [
     {
-        "id": "Etanolamina",
+        "id": "Etanolaminaa",
         "name": "Etanolamina",
         "presentation": "Tambores",
         "image": 'etanolamina.jpg',
@@ -273,4 +269,22 @@ export const iso46 = [
         "file": "BaseISO46_Azort.pdf"
     }
 ]
->>>>>>> refs/remotes/origin/master
+export const mineraloil = [
+    {
+        "id": "tecnol90",
+        "name": "Tecnol 90",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'Tecnol90.jpg',
+        "path": '/Tecnol90'
+    },
+]
+export const tecnol90 = [
+    {
+        "id": "tecnol90(1)",
+        "name": "Tecnol 90",
+        "presentation": "Granel (Totems / Cisternas)",
+        "image": 'Tecnol90.jpg',
+        "use": "El Aceite Mineral 90/100T se utiliza también en cremas, lociones, brillantinas, como lubricante y desmoldante en panificación, así como en la fabricación de lubricante textil para sacos de rafia para alimentos.",
+        "file": "Tecnol90_Azort.pdf"
+    }
+]

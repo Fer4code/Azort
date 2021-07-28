@@ -17,6 +17,10 @@ import Metanol from './components/parts/Products/iProducts/Metanol'
 import IPA from './components/parts/Products/iProducts/IPA'
 import Etilico from './components/parts/Products/iProducts/Etilico.js'
 import Hipoclorito12 from './components/parts/Products/iProducts/Hipoclorito12.js'
+import Bsiso32 from './components/parts/Products/iProducts/Bsiso32.js'
+import Bsiso46 from './components/parts/Products/iProducts/Bsiso46.js'
+import Tecnol90 from './components/parts/Products/iProducts/Tecnol90.js'
+import Etanolamina from './components/parts/Products/iProducts/Etanolamina.js'
 import createHistory from 'history/createBrowserHistory'
 
 
@@ -40,7 +44,12 @@ function App() {
 						<Route exact path='/Metanol' component={Metanol} />
 						<Route exact path='/IPA' component={IPA} />
 						<Route exact path='/Etilico' component={Etilico} />
+						<Route exact path='/Base_ISO32' component={Bsiso32} />
+						<Route exact path='/Base_ISO46' component={Bsiso46} />
 						<Route exact path='/Hipoclorito12' component={Hipoclorito12} />
+						<Route exact path='/Tecnol90' component={Tecnol90} />
+						<Route exact path='/Etanolamina' component={Etanolamina} />
+
 					</div>
 
 					<Footer />

@@ -17,7 +17,7 @@ import Container from '@material-ui/core/Container';
 import DialogContent from '@material-ui/core/DialogContent';
 
 export default function ResponsiveDialog() {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
   const theme = useTheme();
 
   const handleClickOpen = () => {
@@ -117,10 +117,10 @@ Polialcoholes o polioles. Contienen más de un grupo hidroxilo.
                               </CardActionArea>
                               <CardContent>
                                   <Typography align='center' variant='h5' component='h2'>
-                                      Aromáticos
+                                      {data.name}
                                   </Typography>
                                   <Typography variant='body2' align='center' color='textSecondary' component='p'>
-                                  Granel (Totems / Cisternas)
+                                        {data.presentation}
                                   </Typography>
                               </CardContent>
                           </Card>
