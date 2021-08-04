@@ -38,18 +38,20 @@ export default function Products(props) {
 			<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 			<Solv_alifaticos/>
 					</Grid>
-					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
+					{/*<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 			<Parafinicos/>
 					</Grid>
+					*/}
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 			<Aromaticos/>
-					</Grid>
+	  </Grid>
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 			<Alcoholes/>
 					</Grid>
+					{/*
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 					<Mineraloil/>
-					</Grid>
+					</Grid>*/}
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 					<Baseslub/>
 					</Grid>

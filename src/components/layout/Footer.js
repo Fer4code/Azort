@@ -69,17 +69,17 @@ function Footer() {
 							<img
 								src={IG}
 								className='logo'
-								onClick={event => (window.location.href = 'https://www.instagram.com/ql_grupo_azortca/')}
+								onClick={event => (window.location.href = 'https://www.instagram.com/grupo_azort/')}
 								alt='Instagram'
 							/>
 							<Typography variant='h5' color='initial' className='header'>
 								Dirección:
 							</Typography>
 							<Typography variant='body' color='initial' className='header'>
-								C.C Concepto La Granja - Av. Paseo Cabriales,
+								Avenida Paseo Cabriales, Centro Comercial Concepto La Granja,
 							</Typography>
 							<Typography variant='body' color='initial' className='header'>
-								2005, Municipio Naguanagua, Estado Carabobo, Venezuela.
+								Torre Empresarial, Piso 4.
 							</Typography>
 						</Grid>
 						<Grid item xs={12} md={4} align='center' className='item'>

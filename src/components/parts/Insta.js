@@ -13,12 +13,12 @@ export default function Insta() {
     return (
         <>
             <div>
-                <Typography variant="h4" className='Instatext' onClick={event => (window.location.href = 'https://www.instagram.com/ql_grupo_azortca/')}
-                >Síguenos en nuestro instagram, @ql_grupo_azortca</Typography>
+                <Typography variant="h4" className='Instatext' onClick={event => (window.location.href = 'https://www.instagram.com/grupo_azort/')}
+                >Síguenos en nuestro instagram, @Grupo_Azort</Typography>
                 <img
                     src={IG}
                     className='iglogo'
-                    onClick={event => (window.location.href = 'https://www.instagram.com/ql_grupo_azortca/')}
+                    onClick={event => (window.location.href = 'https://www.instagram.com/grupo_azort/')}
                     alt='Instagram'
                 />
             </div>

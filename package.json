@@ -2,7 +2,7 @@
   "name": "azort1",
   "version": "0.1.0",
   "engines": {
-    "node": "=14.17.3"
+    "node": ">14.17.3"
   },
   "private": true,
   "dependencies": {
