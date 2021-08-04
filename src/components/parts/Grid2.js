@@ -50,7 +50,7 @@ export default function Products(props) {
 					</Grid>
 					{/*
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
-					<Mineraloil/>
+					<Mineraloil/>						EEEEE
 					</Grid>*/}
 					<Grid item xl={3} lg={3} md={3} sm={6} xs={11} align='center' className='gitem'>
 					<Baseslub/>
