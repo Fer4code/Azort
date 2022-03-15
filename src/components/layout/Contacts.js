@@ -1,8 +1,8 @@
 import React from 'react'
 import { Grid, Typography, makeStyles } from '@material-ui/core'
 import credentials from './Credentials'
-import Map from './Map'
 import './Style.css'
+{/*import Map from './Map'*/}
 
 const mapsurl = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`
 

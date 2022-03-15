@@ -3,10 +3,11 @@ import Carousel from '../parts/Carousel'
 import Grid2 from '../parts/Grid2'
 import KnowWhat from '../parts/KnowWhat'
 import AboutUs from '../parts/AboutUs'
-import Insta from '../parts/Insta'
 import './Style.css'
 import { makeStyles } from '@material-ui/core/styles'
 import {Animation} from './Animation';
+import Insta from '../parts/Insta'
+
 
 const useStyles = makeStyles(theme => ({
 	root: {

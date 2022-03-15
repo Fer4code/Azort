@@ -43,14 +43,16 @@ export const solventes_alifaticos = [
         {
         "id": "Alisol100",
         "name": "Alisol 100",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
+        "use": "Fabricación de pinturas, productos de la agricultura, y disolventes de resinas. También se utiliza en la formulación de productos veterinarios y desengrasantes de piezas metálicas, además como componentes de barnices, tintas y lacas y en la formulación de gomas y adhesivos.",
         "image": 'ali_100.jpg',
         "path": '/Alisol_100'
     },
     {
         "id": "Alisolg150",
         "name": "Alisol 150",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
+        "use": "Fabricación de pinturas, productos de la agricultura, y disolventes de resinas. También se utiliza en la formulación de productos veterinarios y desengrasantes de piezas metálicas, además como componentes de barnices, tintas y lacas y en la formulación de gomas y adhesivos.",
         "image": 'ali_150.jpg',
         "path": '/Alisol_150'
     },
@@ -58,7 +60,8 @@ export const solventes_alifaticos = [
     {
         "id": "Alisol200",
         "name": "Alisol 200",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
+        "use": "Fabricación de pinturas, productos de la agricultura, y disolventes de resinas. También se utiliza en la formulación de productos veterinarios y desengrasantes de piezas metálicas, además como componentes de barnices, tintas y lacas y en la formulación de gomas y adhesivos.",
         "image": 'ali_200.jpg',
         "path": '/Alisol_200'
     },   
@@ -124,7 +127,8 @@ export const aromaticos = [
     {
         "id": "Xileno",
         "name": "Xileno",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
+        "use": "Es un líquido incoloro de olor dulce que se inflama fácilmente. Se encuentra naturalmente en el petróleo y en alquitrán. se usa como disolvente en la imprenta y en las industrias de caucho y cuero. También se usa como agente de limpieza, diluyente de pintura y en pinturas y barnices.",
         "image": 'xileno.jpg',
         "path": '/Xileno'
     }
@@ -143,21 +147,21 @@ export const alcoholes = [
     {
         "id": "Metanol",
         "name": "Metanol",
-        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "presentation": "Presentación: Granel (Tambores Sellados / Tótems / Cisternas)",
         "image": 'Metanol.jpg',
         "path": '/Metanol'
     },
     {
         "id": "ipa",
         "name": "Alcohol Isopropílico (IPA)",
-        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "presentation": "Presentación: Granel (Tambores Sellados / Tótems / Cisternas)",
         "image": 'ipa.jpg',
         "path": '/IPA'
     },
     {
         "id": "Etilico",
         "name": "Etilico",
-        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "presentation": "Presentación: Granel (Tambores Sellados / Tótems / Cisternas)",
         "image": 'Etilico.jpg',
         "path": '/Etilico'
     }
@@ -166,7 +170,7 @@ export const metanol = [
     {
         "id": "Metanol",
         "name": "Metanol",
-        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "presentation": "Presentación: Granel (Tambores Sellados / Tótems / Cisternas)",
         "image": 'Metanol.jpg',
         "use": "Líquido incoloro y muy tóxico, obtenido por destilación de la madera a baja temperatura o mediante la reacción del monóxido de carbono y el hidrógeno, que se emplea para desnaturalizar el alcohol etílico y como aditivo de combustibles líquidos.",
         "file": "Metanol_Azort.pdf"
@@ -177,7 +181,7 @@ export const ipa = [
     {
         "id": "ipa",
         "name": "Alcohol Isopropílico (IPA)",
-        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "presentation": "Presentación: Granel (Tambores Sellados / Tótems / Cisternas)",
         "image": 'ipa.jpg',
         "use": "Alcohol incoloro, inflamable, con un olor intenso y muy miscible con el agua, utilizado en la limpieza de objetivos fotográficos, en la industria química para síntesis orgánica y como intermediario, y como disolvente para ceras, aceites vegetales y resinas naturales y sintéticas.",
         "file": "IPA_Azort.pdf"
@@ -187,7 +191,7 @@ export const etilico = [
     {
         "id": "Etilico",
         "name": "Etilico",
-        "presentation": "Granel (Tambores Sellados / Tótems / Cisternas)",
+        "presentation": "Presentación: Granel (Tambores Sellados / Tótems / Cisternas)",
         "image": 'Etilico.jpg',
         "use": "Líquido incoloro, de olor fuerte e inflamable que se obtiene por destilación de productos de fermentación de sustancias azucaradas o feculentas, como la uva, la melaza, la remolacha o la papa, forma parte de numerosas bebidas (vino, aguardiente, cerveza, etc.) y tiene numerosas aplicaciones industriales.",
         "file": "Etilico_Azort.pdf"
@@ -196,16 +200,17 @@ export const etilico = [
 export const limpiadores = [
     {
         "id": "Hipoclorito12",
-        "name": "Hipoclorito al 12%",
-        "presentation": "Granel (Tótems / Cisternas)",
+        "name": "Hipoclorito al 6%",
+        "presentation": "Presentación: Granel (Tótems / Cisternas)",
         "image": 'Hipoclorito12.jpg',
+        "use": "Es un compuesto que puede ser utilizado para desinfección del agua. Se usa a gran escala para la purificación de superficies, blanqueamiento, eliminación de olores y desinfección del agua.",
         "path": '/Hipoclorito12'
     },
 ]
 export const hipoclorito12 =[
     {
         "id": "Hipoclorito12",
-        "name": "Hipoclorito al 12%",
+        "name": "Hipoclorito al 6%",
         "presentation": "Granel (Tótems / Cisternas)",
         "image": 'Hipoclorito12.jpg',
         "use": "Es un compuesto que puede ser utilizado para desinfección del agua. Se usa a gran escala para la purificación de superficies, blanqueamiento, eliminación de olores y desinfección del agua.",
@@ -217,7 +222,8 @@ export const etanolamina = [
     {
         "id": "Etanolaminaa",
         "name": "Etanolamina",
-        "presentation": "Tambores",
+        "presentation": "Presentación: Tambores",
+        "use": "Dietanolamina (DEA), monoetanolamina (MEA) y Trietanolamina (TEA) son compuestos de amoníaco utilizados como emulsionantes y agentes espumantes en los cosméticos.",
         "image": 'etanolamina.jpg',
         "path": '/Etanolamina'
     }
@@ -237,23 +243,27 @@ export const baseslub = [
     {
         "id": "base32",
         "name": "Base ISO 32",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
         "image": 'ISO32.jpg',
-        "path": '/Base_ISO32'
+        "path": '/Base_ISO32',
+        "use": "Es un compuesto el cual sirve como el cimiento del lubricante antes de que se mezcle con aditivos o un espesante en el caso de una grasa. El cual tiene una certificacion ISO 32 lo que indica que a 40 grados Celsius (+/-10%) tiene una viscocidad de 32 Centistokes",
+
     },
     {
         "id": "base46",
         "name": "Base ISO 46",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
         "image": 'ISO46.jpg',
-        "path": '/Base_ISO46'
+        "path": '/Base_ISO46',
+        "use": "Es un compuesto que funge como el cimiento del lubricante antes de que se mezcle con aditivos o un espesante en el caso de una grasa. El cual tiene una certificacion ISO 46 lo que indica que a 40 grados Celsius (+/-10%) tiene una viscocidad de entre 41.4 y 50.6 Centistokes",
+
     },
 ]
 export const iso32 = [
     {
         "id": "iso32",
         "name": "Base ISO 32",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
         "image": 'ISO32.jpg',
         "use": "Es un compuesto el cual sirve como el cimiento del lubricante antes de que se mezcle con aditivos o un espesante en el caso de una grasa.",
         "file": "BaseISO32_Azort.pdf"
@@ -263,7 +273,7 @@ export const iso46 = [
     {
         "id": "iso150",
         "name": "Base ISO 46",
-        "presentation": "Granel (Totems / Cisternas)",
+        "presentation": "Presentación: Granel (Totems / Cisternas)",
         "image": 'ISO46.jpg',
         "use": "Es un compuesto el cual sirve como el cimiento del lubricante antes de que se mezcle con aditivos o un espesante en el caso de una grasa.",
         "file": "BaseISO46_Azort.pdf"
@@ -275,6 +285,7 @@ export const mineraloil = [
         "name": "Tecnol 90",
         "presentation": "Granel (Totems / Cisternas)",
         "image": 'Tecnol90.jpg',
+        "use": "El Aceite Mineral 90/100T se utiliza también en cremas, lociones, brillantinas, como lubricante y desmoldante en panificación, así como en la fabricación de lubricante textil para sacos de rafia para alimentos.",
         "path": '/Tecnol90'
     },
 ]

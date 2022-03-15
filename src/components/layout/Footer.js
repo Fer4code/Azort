@@ -1,9 +1,9 @@
 import React from 'react'
 import { Grid, Typography, makeStyles } from '@material-ui/core'
 import credentials from './Credentials'
-import Map from './Map'
 import IG from '../img/ig.svg'
 import './Style.css'
+{/*import Map from './Map'*/}
 
 const useStyles = makeStyles(theme => ({
 	content: {
@@ -47,12 +47,12 @@ function Footer() {
 						</Grid>
 						<Grid item xs={12}>
 							<Typography variant='body' className='header'>
-								Carlos Azuaje +58(414) 4328446
+								+58(414) 4328446
 							</Typography>
 						</Grid>
 						<Grid item xs={12}>
 							<Typography variant='body' className='header'>
-								Anaiz Azuaje +58(424) 4583853
+								+58(424) 4583853
 							</Typography>
 						</Grid>
 						<Grid item xs={12}>

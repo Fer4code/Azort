@@ -1,6 +1,4 @@
 import React from 'react'
-import InstagramEmbed from 'react-instagram-embed';
-import Feed from "react-instagram-authless-feed"
 import IG from '../img/ig.svg'
 import './Styles.css'
 import ReactDOM from 'react-dom';
@@ -23,19 +21,7 @@ export default function Insta() {
                 />
             </div>
 
-            <InstagramEmbed
-  clientAccessToken='805845400042106|4b242985700a225287bfb40021b88015'
-  url='https://www.instagram.com/servilecvalencia/'
-  maxWidth={375}
-  hideCaption={false}
-  containerTagName='div'
-  protocol=''
-  injectScript
-  onLoading={() => {}}
-  onSuccess={() => {}}
-  onAfterRender={() => {}}
-  onFailure={() => {}}
-/>
+            
         </>
     )
 }

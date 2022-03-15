@@ -16,7 +16,7 @@ function AboutUs() {
 				className='content'
 			>
 				<Grid item xs={12}>
-					<Grid container spacing={3}>
+					<Grid container spacing={2}>
 						<Grid item xs={12} md={12} align='center' className='item'>
 							<Typography variant="h3" color="initial">Mision</Typography>
 							<Typography variant="h5" color="initial" align='justify'> 

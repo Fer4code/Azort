@@ -44,16 +44,9 @@
   height: fit-content;
 }
 .contgrid {
-  display: flex;
-  position: center;
-  align-items: center;
-  align-content: center;
   margin-top: 2%;
-  margin-left: 10%;
-  min-height: fit-content;
-  width: 70%;
-  justify-content: center;
-  flex-direction: row;
+  margin-right: 5%;
+  width: 95%;
 }
 .crdgrid {
   height: 30rem;

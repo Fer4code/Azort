@@ -6,19 +6,13 @@ import Card from '@mui/material/Card'
 import CardActionArea from '@mui/material/CardActionArea'
 import CardMedia from '@mui/material/CardMedia'
 import './Styles.css'
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import CardActions from '@mui/material/CardActions';
-import base from '../img/base.jpg'
-import lubri2 from '../img/lubri2.jpg'
-import lubri1 from '../img/lubri1.jpg'
 
 export default function Profile(props) {
 
 	return (
 		<div className='fc'>
 			<Typography variant='h3' color='DDAB32' align='center' className='title'>
-				Sabías que?
+				Sabias que?
 			</Typography>
 			<div container className='cont'>
 				<Grid container spacing={5} justify='center' align='center' alignContent='center' alignItems='center'>
@@ -26,10 +20,10 @@ export default function Profile(props) {
 						<Paper className='paper'>
 							<Card className='crd' variant='elevation'>
 								<CardMedia
-									className='gridcar'
+									style={{width: '20%'}}
 									component='img'
 									alt='Acido sulfonico'
-									image={base}
+									image={require('../img/base.jpg')}
 								/>
 							</Card>
 						</Paper>
@@ -42,7 +36,7 @@ export default function Profile(props) {
 										className='gridcar'
 										component='img'
 										alt='Varsol'
-										image={lubri2}
+										image={require('../img/lubri2.jpg')}
 									/>
 								</CardActionArea>
 							</Card>
@@ -56,7 +50,7 @@ export default function Profile(props) {
 										className='gridcar'
 										component='img'
 										alt='Infineum P5096'
-										image={lubri1}
+										image={require('../img/lubri1.jpg')}
 									/>
 								</CardActionArea>
 							</Card>
