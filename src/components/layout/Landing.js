@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
 		display: 'flex',
 	},
 	paper: {
-		margin: theme.spacing(1),
+		margin: theme.spacing(0),
 	},
 	polygon: {
 		fill: theme.palette.common.white,
@@ -31,7 +31,7 @@ function App() {
 	useEffect(()=> {
 	  setTimeout(() => {
 		setLoading(false);
-	  }, 3000);
+	  }, 0);
 	});
 	return (
 	  <>

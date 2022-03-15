@@ -86,22 +86,7 @@ function Footer() {
 							<Typography variant='h5' color='initial' className='header' align='center'>
 								Ubicación
 							</Typography>
-							{/*<Map
-								googleMapURL={mapsurl}
-								containerElement={<div style={{ height: '100%', width: '100%', align: 'center' }} />}
-								mapElement={
-									<div
-										style={{
-											height: '200px',
-											width: '60%',
-											borderRadius: '0.5rem',
-											marginTop: '2%',
-											align: 'center',
-										}}
-									/>
-								}
-								loadingElement={<p>Cargando...</p>}
-							/>*/}
+							{/*<Map/>*/}
 						</Grid>
 						<Grid item xs={12} align='center' style={{ marginTop: '2%', backgroundColor: 'grey' }}>
 							<Typography

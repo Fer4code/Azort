@@ -18,7 +18,7 @@ function AboutUs() {
 				<Grid item xs={12}>
 					<Grid container spacing={2}>
 						<Grid item xs={12} md={12} align='center' className='item'>
-							<Typography variant="h3" color="initial">Mision</Typography>
+							<Typography variant="h3" color="initial">Misión</Typography>
 							<Typography variant="h5" color="initial" align='justify'> 
 							Compartir el asesoramiento global y materias primas con el mercado industrial nacional,
         					que contribuya al mejoramiento de la calidad, reduccion de costos, proteccion del talento
@@ -27,7 +27,7 @@ function AboutUs() {
 						</Typography>
                        </Grid>
 						<Grid item xs={12} md={12} align='center' className='item'>
-                        <Typography variant="h3" color="initial">Vision</Typography>
+                        <Typography variant="h3" color="initial">Visión</Typography>
 						<Typography variant="h5" color="initial" align='justify'>
 							Ser los aliados comerciales industriales mas confiables, dentro y fuera del mercado venezolano,
         					comprometidos con nuestros valores y el desarrollo del pais.</Typography>

@@ -25,12 +25,14 @@ export default function Profile(props) {
 					<Grid item xl={4} lg={4} md={4} sm={11} xs={11} align='center'>
 						<Paper className='paper'>
 							<Card className='crd' variant='elevation'>
-								<CardMedia
-									className='gridcar'
-									component='img'
-									alt='Acido sulfonico'
-									image={base}
-								/>
+								<CardActionArea className='gridcar'>
+									<CardMedia
+										className='gridcar'
+										component='img'
+										alt='Acido sulfonico'
+										image={base}
+									/>
+								</CardActionArea>
 							</Card>
 						</Paper>
 					</Grid>

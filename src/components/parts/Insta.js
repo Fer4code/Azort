@@ -10,8 +10,8 @@ import Typography from '@material-ui/core/Typography'
 export default function Insta() {
     return (
         <>
-            <div>
-                <Typography variant="h4" className='Instatext' onClick={event => (window.location.href = 'https://www.instagram.com/grupo_azort/')}
+            <div style={{marginBottom: '2%'}}>
+                <Typography variant="h6" className='Instatext' onClick={event => (window.location.href = 'https://www.instagram.com/grupo_azort/')}
                 >Síguenos en nuestro instagram, @Grupo_Azort</Typography>
                 <img
                     src={IG}
@@ -21,7 +21,6 @@ export default function Insta() {
                 />
             </div>
 
-            
         </>
     )
 }
