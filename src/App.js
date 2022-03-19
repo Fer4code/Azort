@@ -22,7 +22,8 @@ import Bsiso46 from './components/parts/Products/iProducts/Bsiso46.js'
 import Tecnol90 from './components/parts/Products/iProducts/Tecnol90.js'
 import Etanolamina from './components/parts/Products/iProducts/Etanolamina.js'
 import createHistory from 'history/createBrowserHistory'
-
+import ReactGA from 'react-ga';const TRACKING_ID = "G-67XMSMC3CN"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
 	const history = createHistory()

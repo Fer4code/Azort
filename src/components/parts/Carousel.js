@@ -1,8 +1,9 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import car2 from '../img/unnamed.jpg'
-import car1 from '../img/alifatico.jpg'
-import car3 from '../img/covid.jpg'
+import car2 from '../img/car2.jpg'
+import car3 from '../img/car3.jpg'
+import car1 from '../img/car1.jpg'
+
 import { Typography, Grid, Button, makeStyles } from '@material-ui/core'
 
 export default function Caroussel() {
@@ -17,7 +18,8 @@ export default function Caroussel() {
 				<Carousel
 					alt='mycarousel'
 					pause='scroll'
-					controls='true'
+					controls='false'
+					dots='false'
 					wrap='true'
 					touch='true'
 					fade='true'
