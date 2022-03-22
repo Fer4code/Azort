@@ -98,7 +98,13 @@
   object-fit: cover;
 }
 .gridcar {
-  width: 200%;
+  width: 400%;
+  align-content: center;
+  justify-content: center;
+  object-fit: cover;
+}
+.gridcar-img {
+  width: 100%;
   align-content: center;
   justify-content: center;
   object-fit: cover;

@@ -1,5 +1,5 @@
 import React from 'react'
-import Typography from '@mui/material/Typography'
+import Typography from '@mui/material/'
 import Grid from '@mui/material/Grid'
 import Paper from '@mui/material/Paper'
 import Card from '@mui/material/Card'
