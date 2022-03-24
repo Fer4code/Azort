@@ -17,6 +17,13 @@ function AboutUs() {
 			>
 				<Grid item xs={12}>
 					<Grid container spacing={2}>
+					<Grid item xs={12} md={12} align='center' className='item'>
+							<Typography variant="h3" color="initial">Visión</Typography>
+							<Typography variant="h5" color="initial" align='justify'>
+							Ser los aliados comerciales industriales más confiables en el mercado venezolano,
+							comprometidos con nuestros valores y el desarrollo del país.
+							</Typography>
+                        </Grid>
 						<Grid item xs={12} md={12} align='center' className='item'>
 							<Typography variant="h3" color="initial">Misión</Typography>
 							<Typography variant="h5" color="initial" align='justify'> 
@@ -25,13 +32,6 @@ function AboutUs() {
 							disminución del impacto en el medio ambiente y en alianza, propiciar el desarrollo industrial del país.
 						</Typography>
                        </Grid>
-						<Grid item xs={12} md={12} align='center' className='item'>
-							<Typography variant="h3" color="initial">Visión</Typography>
-							<Typography variant="h5" color="initial" align='justify'>
-							Ser los aliados comerciales industriales más confiables en el mercado venezolano,
-							comprometidos con nuestros valores y el desarrollo del país.
-							</Typography>
-                        </Grid>
 						<Grid item xs={12} md={12} align='center' className='item'>
 							<Typography variant="h3" color="initial">Nuestros Valores</Typography>
 						</Grid>
