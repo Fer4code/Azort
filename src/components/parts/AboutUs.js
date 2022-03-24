@@ -37,46 +37,42 @@ function AboutUs() {
 						</Grid>
 						<Grid container spacing={2}>
 						<Grid item xs={12} md={12} lg={6} align='center'>
-							<Typography variant="h5" color="initial">
+							<Typography variant="h5" color="initial" justify="left">
 								Responsabilidad; cumplir con lo acordado
 							</Typography>
 						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Grid item xs={12} md={12} lg={6} align='center' justify="left">
 						<Typography variant="h5" color="initial">
 						Compromiso; sentimos pasión por lo que hacemos, brindar más
 						</Typography>
 						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Grid item xs={12} md={12} lg={6} align='center' justify="left">
 						<Typography variant="h5" color="initial">
 						Honestidad; transparencia en el desempeño, decir las cosas como son
 						</Typography>
 						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Grid item xs={12} md={12} lg={6} align='center' justify="left">
 						<Typography variant="h5" color="initial">
 						Respeto; todos somos valiosos, todos tenemos talento y eso se respeta, trato cordial
 						</Typography>
 						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Grid item xs={12} md={12} lg={6} align='center' justify="left">
 						<Typography variant="h5" color="initial">
-						Innovación; siempre hay una mejor forma de hacerlo…re inventar es indispensable
+						Innovación; siempre hay una mejor forma de hacerlo…
+						re-inventar es indispensable
 						</Typography>
 						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Grid item xs={12} md={12} lg={6} align='center' justify="left">
 						<Typography variant="h5" color="initial">
 						Conexión; sensibilidad con la realidad del país y del mercado, los pies en la tierra,
 						</Typography>
 						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Grid item xs={12} md={12} lg={6} align='center' justify="left">
 						<Typography variant="h5" color="initial">
 						Talento; generar alianzas positivas, en conjunto tenemos más oportunidades de éxito,
 						</Typography>
 						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
-						<Typography variant="h5" color="initial">
-						Conexión; sensibilidad con la realidad del país y del mercado, los pies en la tierra,
-						</Typography>
-						</Grid>
-						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Grid item xs={12} md={12} lg={6} align='center' justify="left">
 						<Typography variant="h5" color="initial">
 						Impulso; vamos por más.
 						</Typography>
