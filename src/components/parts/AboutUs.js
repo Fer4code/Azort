@@ -26,29 +26,64 @@ function AboutUs() {
 						</Typography>
                        </Grid>
 						<Grid item xs={12} md={12} align='center' className='item'>
-                        <Typography variant="h3" color="initial">Visión</Typography>
-						<Typography variant="h5" color="initial" align='justify'>
-						Ser los aliados comerciales industriales más confiables en el mercado venezolano,
-						comprometidos con nuestros valores y el desarrollo del país.
-						</Typography>
-                            </Grid>
-							
+							<Typography variant="h3" color="initial">Visión</Typography>
+							<Typography variant="h5" color="initial" align='justify'>
+							Ser los aliados comerciales industriales más confiables en el mercado venezolano,
+							comprometidos con nuestros valores y el desarrollo del país.
+							</Typography>
+                        </Grid>
 						<Grid item xs={12} md={12} align='center' className='item'>
 							<Typography variant="h3" color="initial">Nuestros Valores</Typography>
+						</Grid>
+						<Grid container spacing={2}>
+						<Grid item xs={12} md={12} lg={6} align='center'>
 							<Typography variant="h5" color="initial">
-							Responsabilidad; cumplir con lo acordado,
-							Compromiso; sentimos pasión por lo que hacemos, brindar más,
-							Honestidad; transparencia en el desempeño, decir las cosas como son,
-							Respeto; todos somos valiosos, todos tenemos talento y eso se respeta, trato cordial,
-							Innovación; siempre hay una mejor forma de hacerlo…re inventar es indispensable,
-							Conexión; sensibilidad con la realidad del país y del mercado, los pies en la tierra,
-							Talento; generar alianzas positivas, en conjunto tenemos más oportunidades de éxito,
-							Impulso; vamos por más.
+								Responsabilidad; cumplir con lo acordado
 							</Typography>
 						</Grid>
-						
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Compromiso; sentimos pasión por lo que hacemos, brindar más
+						</Typography>
+						</Grid>
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Honestidad; transparencia en el desempeño, decir las cosas como son
+						</Typography>
+						</Grid>
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Respeto; todos somos valiosos, todos tenemos talento y eso se respeta, trato cordial
+						</Typography>
+						</Grid>
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Innovación; siempre hay una mejor forma de hacerlo…re inventar es indispensable
+						</Typography>
+						</Grid>
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Conexión; sensibilidad con la realidad del país y del mercado, los pies en la tierra,
+						</Typography>
+						</Grid>
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Talento; generar alianzas positivas, en conjunto tenemos más oportunidades de éxito,
+						</Typography>
+						</Grid>
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Conexión; sensibilidad con la realidad del país y del mercado, los pies en la tierra,
+						</Typography>
+						</Grid>
+						<Grid item xs={12} md={12} lg={6} align='center'>
+						<Typography variant="h5" color="initial">
+						Impulso; vamos por más.
+						</Typography>
+						</Grid>
 					</Grid>
 				</Grid>
+			</Grid>
 			</Grid>
 			</Container>
 		</div>
