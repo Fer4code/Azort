@@ -4,6 +4,7 @@ import car2 from '../img/car2.jpg'
 import car3 from '../img/car3.jpg'
 import car1 from '../img/car1.jpg'
 import car4 from '../img/car4.jpg'
+import car5 from '../img/val.jpg'
 
 import { Typography, Grid, Button, makeStyles } from '@material-ui/core'
 
@@ -39,6 +40,9 @@ export default function Caroussel() {
 					</Carousel.Item>
 					<Carousel.Item>
 						<img className='divcar' src={car4} alt='Fourth slide' />
+					</Carousel.Item>
+					<Carousel.Item>
+						<img className='divcar' src={car5} alt='Fifth slide' />
 					</Carousel.Item>
 				</Carousel>
 			</Grid>

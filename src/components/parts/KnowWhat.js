@@ -6,9 +6,6 @@ import Card from '@mui/material/Card'
 import CardActionArea from '@mui/material/CardActionArea'
 import CardMedia from '@mui/material/CardMedia'
 import './Styles.css'
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import CardActions from '@mui/material/CardActions';
 import base from '../img/base.jpg'
 import lubri2 from '../img/lubri2.jpg'
 import lubri1 from '../img/lubri1.jpg'
